@@ -1,0 +1,58 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="rpg_battle.css">
+<link rel="stylesheet" href="rpg_battle.js">
+<title>HTML, CSS and JavaScript demo</title>
+</head>
+<body>
+<div class="haut">
+  <div class="stat">
+    <div>
+      <button id="butGue">Guerrier 
+         <div class="vieGuer"><strong>Vie </strong> 170 </div>
+         <div class="manaGuer"><strong>Mana</strong> 90</div>
+      </button> 
+      <button id="butPre">Prêtre 
+         <div class="viePret"><strong>Vie </strong> 80 </div>
+         <div class="manaPre"t><strong>Mana</strong> 90 </div>
+      </button>
+      <button id="butArc">Archer
+        <div class="vieArch"><strong>Vie </strong> 130 </div>
+        <div class="manaArch"><strong>Mana</strong>90 </div>
+      </button>
+      <button id="butVol">Voleur
+        <div class="vieVole"><strong>Vie </strong> 120 </div>
+        <div class="manaVole"><strong>Mana</strong> 90</div>
+      </button>
+    </div>
+    <div>
+    </div>
+  </div>
+</div>
+<div class="milieu">
+  <div class="description"></div>
+  <div class="gobelin"><img id="imageGobelin" src="./assets/gobelin.png">
+  <div class="infoGob">Gobelin Vie: <div class="vieGob">100</div></div></div>
+  <div class="dragon"><img id="imageDragon" src="./assets/dragon.png">
+  <div class="infoDra">Dragon Vie: <div class="vieDra">250</div></div></div>
+  <div class="fantome"><img id="imageFantome" src="./assets/fantome.png">
+  <div class="infoFan">Fantôme Vie: <div class="vieFan">150</div></div></div>
+</div>
+<div class="bas">
+  <div class="action">
+    <div> <strong><button class="butAtk">>Attaquer <div class="atkPerso">_</div></button> 
+          <button class="butDef">>Défense</button>  
+          <button class="butSpe">>Spéciale</button></strong>
+    </div>
+  </div> 
+  <div class="selectionMonstres">
+    <div> 
+    <button class="butGob">Gobelin</button> 
+    <button class="butDra">Dragon</button> 
+    <button class="butFan">Fantôme</button> 
+    </div>
+  </div>  
+</div>
+</body>
+</html>

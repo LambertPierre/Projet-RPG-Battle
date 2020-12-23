@@ -1,0 +1,149 @@
+.stat{
+  display: flex;
+  align-items: right;
+	border-radius: 10px;
+	color: white;
+  border-style:  solid;
+  font-size: 20px;
+  width:  780px;
+  font-family:  Andale Mono, monospace;
+}
+.haut{
+  display:  flex;
+}
+.bas{
+  display:  flex;
+  height:  160px;
+  align-items:  flex-end;
+  font-size: 35;
+  font-family:  Andale Mono, monospace;
+}
+.action{
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  text-align: left;
+  width:  300px;
+  margin-left:  50px;
+  margin-right:  5px;
+  border-style: solid;  
+  padding-left: 20px; 
+}
+.selectionMonstres{
+	border-radius: 10px;
+	color: white;
+  border-style:  solid;
+  display:  felx;
+  height: 123px;
+  align-items: center;
+  font-family:  Andale Mono, monospace;
+}
+body{
+  background-image: url("./assets/battleback1.png");
+  background-size: cover;
+}
+.milieu{
+  display:  flex;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+}
+.description{
+  border-style: solid;
+  width: 300px;
+  height: 100px;
+}
+.InfoGob{
+	transform: scale(0);
+	Background-color: white;
+	border-radius: 8px;
+	font-family:  Andale Mono, monospace;
+	transition: 0.2s;
+}
+.gobelin:hover > .infoGob{
+	transform: scale(1);
+}
+.InfoDra{
+	transform: scale(0);
+	Background-color: white;
+	border-radius: 8px;
+	font-family:  Andale Mono, monospace;
+	transition: 0.2s;
+}
+.dragon:hover > .infoDra{
+	transform: scale(1);
+}
+.InfoFan{
+	transform: scale(0);
+	Background-color: white;
+	border-radius: 8px;
+	font-family:  Andale Mono, monospace;
+	transition: 0.2s;
+}
+.fantome:hover > .infoFan{
+	transform: scale(1);
+}
+button {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:15px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:  Andale Mono, monospace;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+button:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+.butAtk {
+	background-color:transparent;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 40px;
+  text-decoration:none;
+  font-family:  Andale Mono, monospace;
+}
+.butAtk:hover {
+	background-color:transparent;
+}
+.butAtk:active {
+	position:relative;
+	top:1px;
+}
+.butGue {
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:18px 48px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.butGue:hover {
+	background-color:transparent;
+}
+.butGue:active {
+	position:relative;
+	top:1px;
+}
